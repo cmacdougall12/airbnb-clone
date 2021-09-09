@@ -21,4 +21,9 @@ export default {
     { name: "id", title: "ID", type: "number" },
     { name: "image", title: "Image", type: "image"},
   ],
+  preview: {
+    select: {
+      title: 'name', media: 'image',
+    }
+  }
 };
