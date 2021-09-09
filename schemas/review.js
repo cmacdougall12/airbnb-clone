@@ -11,7 +11,7 @@ export default {
     {
       name: "traveller",
       title: " Traveller",
-      type: "string",
+      type: "traveller",
     },
     {
       name: "rating",

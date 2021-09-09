@@ -72,7 +72,7 @@ export default {
     {
       name: "host",
       title: "host",
-      type: "string",
+      type: "host",
     },
     {
       name: "reviews",
