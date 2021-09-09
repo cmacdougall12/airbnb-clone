@@ -1,8 +1,25 @@
-import { sanityClient } from "../sanity";
+import { sanityClient, urlFor} from "../sanity";
 
-const Home = ({properties}) => {
+const Home = ({ properties }) => {
   console.log(properties);
-  return <div>Hello</div>;
+  return (
+    <>
+      {properties && (
+        <div className="main">
+          <div className="feed-container">
+            <h1>Places to Stay near you</h1>
+            <div className="feed">
+              {properties.map((property, index)=>{
+                <div key={property._id} className="card">
+                  <img src={urlFor(property.mainImage)}/>
+                </div>
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
 };
 
 export const getServerSideProps = async () => {

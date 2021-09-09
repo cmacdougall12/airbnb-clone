@@ -28,6 +28,15 @@ export default {
       },
     },
     {
+      name: 'mainImage',
+      title: 'Main Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    
+    {
       name: "images",
       title: "Images",
       type: "array",
