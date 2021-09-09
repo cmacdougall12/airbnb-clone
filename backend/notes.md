@@ -13,3 +13,7 @@
 1. Keep backend sanity.io database running
 2. create new directory for front end development
 3. npx create-next-app
+4. sanity.js code
+5. npm i next-sanity
+6. Create .env file and add dataset and project-id keys that are found in the sanity.json folder in the backend
+
