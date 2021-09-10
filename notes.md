@@ -16,4 +16,5 @@
 4. sanity.js code
 5. npm i next-sanity
 6. Create .env file and add dataset and project-id keys that are found in the sanity.json folder in the backend
+7. npm run dev to run in development mode
 
